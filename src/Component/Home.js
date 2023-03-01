@@ -18,6 +18,7 @@ export default function Home() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+        
         <img
           className="d-block w-100" style={{height:"600px",objectFit:"cover"}}
           src="https://www.ovt.com/wp-content/uploads/2021/12/OmniVision_Applications_Security_Use-Cases_CommercialIndustrialSecurityCameras_HeroBanner-scaled.jpg"
