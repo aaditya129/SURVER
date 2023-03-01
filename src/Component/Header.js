@@ -34,8 +34,16 @@ export default function Header() {
       <li class="nav-item" style={{marginLeft:"240px"}}>
           <a class="nav-link" style={{fontSize:"23px"}} href="/about">Contact Us</a>
         </li>
-      <li class="nav-item" style={{marginLeft:"11px"}}>
-          <a class="nav-link" style={{fontSize:"23px",display:"flex",alignItems:"center"}} href="/demo"> <LiveTvIcon/> Live Demo</a>
+      
+        <li class="nav-item dropdown" style={{fontSize:"23px",display:"flex",alignItems:"center"}}>
+          <a style={{fontSize:"23px",display:"flex",alignItems:"center"}} class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <LiveTvIcon/>  LIVE DEMO
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/demo">DEMO 1</a></li>
+            <li><a class="dropdown-item" href="/demo2">DEMO 2</a></li>
+            <li><a class="dropdown-item" href="/demo3">DEMO 3</a></li>
+          </ul>
         </li>
       <li class="nav-item" style={{marginLeft:"11px"}}>
           <a class="nav-link" style={{fontSize:"23px"}} href="/about">Login</a>

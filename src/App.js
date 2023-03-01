@@ -10,6 +10,8 @@ import {
 import About from "./Component/About";
 import Action from "./Component/Action";
 import LiveDemo from "./Component/LiveDemo";
+import Livedemo2 from "./Component/Livedemo2";
+import Livedemo3 from "./Component/livedemo3";
 function App() {
   return (
     <>
@@ -47,6 +49,22 @@ function App() {
             element={
              
              <LiveDemo/>
+            }
+            />
+   <Route
+            exact
+            path="/demo2"
+            element={
+             
+            <Livedemo2/>
+            }
+            />
+   <Route
+            exact
+            path="/demo3"
+            element={
+             
+             <Livedemo3/>
             }
             />
    </Routes>

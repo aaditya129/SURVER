@@ -1,7 +1,7 @@
 import React from 'react';
 // import video from './video.mp4';
 
-export default function LiveDemo() {
+export default function Livedemo2() {
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
@@ -11,14 +11,14 @@ export default function LiveDemo() {
   borderRadius:" 20px",
   backgroundColor: " #f2f2f2",
   boxShadow:" 0px 0px 10px #333", textAlign: "center"}}>
-      <h2>LIVE DEMO </h2>
-            <video  style={{
+      <h2>LIVE DEMO 2</h2>
+            <video style={{
               position: "fixed",
               top: "95px",
               left: "0",
               width: "100%",
               height: "90%",
-            }} controls loop autoPlay>
+            }}controls loop autoPlay>
               {/* <source src={video} type="video/mp4" /> */}
               Your browser does not support the video tag.
             </video>

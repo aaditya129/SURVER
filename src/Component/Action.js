@@ -1,5 +1,5 @@
 import React from 'react'
-import video from './video.mp4'
+// import video from './video.mp4'
 
 export default function Action() {
     return (
@@ -16,7 +16,7 @@ export default function Action() {
             </div>
             <div className="col-md-6">
             <video width="700" height="450" controls loop autoPlay>
-        <source src={video} type="video/mp4" />
+        {/* <source src={video} type="video/mp4" /> */}
         Your browser does not support the video tag.
       </video>
             </div>
